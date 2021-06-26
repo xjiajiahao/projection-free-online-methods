@@ -40,7 +40,7 @@ plot_CF('Jester1');
 
 % conduct experiment on MovieLen 1M dataset and plot figures
 test_CF_MovieLens1M;
-plot_CF('MovieLens1M);
+plot_CF('MovieLens1M');
 
 % conduct experiment on Jester 3 dataset and plot figures
 test_CF_Jester3;
