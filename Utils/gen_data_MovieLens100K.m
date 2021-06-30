@@ -54,5 +54,5 @@ end
 user_ratings_matrix = sparse(user_ratings_matrix);
 
 
-filename = [OUTPUT_DIR, 'MoviesLens100K', '.mat'];
+filename = [OUTPUT_DIR, 'MovieLens100K', '.mat'];
 save(filename, 'user_ratings_cell', 'user_ratings_matrix');
